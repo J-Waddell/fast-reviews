@@ -6,13 +6,17 @@
   <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
 </head>
 <body>
-<div>
-  <h2 class="infobox">Insert Information</h2>
-  <textarea name="informationinput" placeholder="Insert here"></textarea>
-  <h2 class="infobox">Insert Google Doc Link</h2>
-  <textarea name="doclink" placeholder="Insert here"></textarea>
+<form>
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Insert Desired Doc Info">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Insert Google Doc Link">
+    </div>
+  </div>
   <button class="btn btn-outline-dark" type="submit">Submit</button>
-</div>
+</form>
 <script src="/sendinfo.js" type="text/javascript" charset="utf-8"></script>
 <script src="http://code.jquery.com/jquery.js"></script>
 <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
