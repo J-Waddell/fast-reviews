@@ -1,0 +1,22 @@
+{
+  "name": "fast-reviews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sendinfo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J-Waddell/fast-reviews.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J-Waddell/fast-reviews/issues"
+  },
+  "homepage": "https://github.com/J-Waddell/fast-reviews#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  }
+}
