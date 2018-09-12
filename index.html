@@ -7,7 +7,7 @@
 </head>
 <body>
   <div class="welcome">
-    <h1>Welcome to Fast Reviews</h1>
+    <h1 id="sendit">Welcome to Fast Reviews</h1>
   </div>
 <form>
   <div class="row">
@@ -15,13 +15,13 @@
       <input type="text" class="form-control" placeholder="Insert Desired Doc Info">
     </div>
     <div class="col">
-      <input type="text" class="form-control" placeholder="Insert Google Doc Link">
+      <input id="getit()" type="text" class="form-control" placeholder="Insert Google Doc Link">
     </div>
   </div>
 </form>
   <div class="d-flex justify-content-center">
     <div class="d-flex align-items-center">
-      <button onclick="createAndSendDocument()" class="btn btn-outline-dark btn-lg" type="submit">Submit</button>
+      <button onclick="getdocument()" class="btn btn-outline-dark btn-lg" type="submit">Submit</button>
     </div>
   </div>
 <script src="/sendinfo.js" type="text/javascript" charset="utf-8"></script>
