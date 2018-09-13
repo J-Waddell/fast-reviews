@@ -1,8 +1,8 @@
 console.log('hello');
 
-var doclink = document.getElementById('getit');
+var doclink = document.getElementById('getit').value;
 //retrieveing document
 function getdocument() {
 return doclink;
 }
-console.log(doclink)
+console.log(getdocument(doclink), "here")
